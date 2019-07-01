@@ -17,16 +17,24 @@ h1 {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    max-width: 20%;
+    height: 200px;
+}
+
 #intro {
     clear: both;
     position: absolute;
     left: 10%;
-    margin-top: 250px;
+    top: 150px;
     width: 960px;
     border: 0.5px solid #dddddd;
     padding: 100px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    
+    background-color: #ffffff;
 }
 
 #footer_bottom {
@@ -68,4 +76,5 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
     margin-top: 85px;
+    width: 960px;
   }
