@@ -18,14 +18,16 @@ h1 {
 }
 
 img {
+    z-index: 1;
     position: absolute;
-    right: 0px;
-    top: 0px;
+    top: 158px;
+    left: 40px;
     max-width: 20%;
     height: 200px;
 }
 
 #intro {
+    float: left;
     clear: both;
     position: absolute;
     left: 10%;
